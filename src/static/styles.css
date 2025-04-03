@@ -142,3 +142,31 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-section {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #e3f2fd;
+  border: 1px solid #90caf9;
+  border-radius: 5px;
+}
+
+.participants-section strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #0d47a1;
+}
+
+.participants-section ul {
+  list-style-type: disc;
+  padding-left: 80px; /* Increase padding for better alignment */
+  margin-left: 80px;
+}
+
+.participants-section li {
+  margin-bottom: 8px; /* Add more spacing between items */
+  color: #0d47a1; /* Darker color for better readability */
+  font-size: 15px; /* Slightly larger font size */
+  line-height: 1.6; /* Improve line spacing */
+  font-weight: 500; /* Add slight boldness for emphasis */
+}
