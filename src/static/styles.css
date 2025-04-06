@@ -142,3 +142,32 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.participants-section {
+  margin-top: 15px;
+  padding: 20px; /* Igualar padding al resto de los recuadros */
+  background-color: white; /* Fondo blanco como los demás recuadros */
+  border: 1px solid #ddd; /* Borde igual al resto */
+  border-radius: 5px; /* Mantener consistencia en el borde redondeado */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra igual al resto */
+}
+
+.participants-section strong {
+  display: block;
+  margin-bottom: 8px;
+  color: #0d47a1;
+}
+
+.participants-section ul {
+  list-style-type: disc;
+  padding-left: 40px; /* Increase padding for better alignment */
+  
+}
+
+.participants-section li {
+  margin-bottom: 8px; /* Add more spacing between items */
+  color: #0d47a1; /* Darker color for better readability */
+  font-size: 15px; /* Slightly larger font size */
+  line-height: 1.6; /* Improve line spacing */
+  font-weight: 500; /* Add slight boldness for emphasis */
+}
