@@ -145,10 +145,11 @@ footer {
 
 .participants-section {
   margin-top: 15px;
-  padding: 10px;
-  background-color: #e3f2fd;
-  border: 1px solid #90caf9;
-  border-radius: 5px;
+  padding: 20px; /* Igualar padding al resto de los recuadros */
+  background-color: white; /* Fondo blanco como los demás recuadros */
+  border: 1px solid #ddd; /* Borde igual al resto */
+  border-radius: 5px; /* Mantener consistencia en el borde redondeado */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra igual al resto */
 }
 
 .participants-section strong {
@@ -159,8 +160,8 @@ footer {
 
 .participants-section ul {
   list-style-type: disc;
-  padding-left: 80px; /* Increase padding for better alignment */
-  margin-left: 80px;
+  padding-left: 40px; /* Increase padding for better alignment */
+  
 }
 
 .participants-section li {
